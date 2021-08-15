@@ -31,10 +31,10 @@ h1 {
 /* Landing Page - NAV BAR   */
 .navBar {
   align-items: center;
-  margin: 1.5em 0;
 }
 
 .navList {
+  align-items: center;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -89,7 +89,8 @@ a:hover {
 }
 
 .aboutMeIMG {
-  height: 100vh;
+  max-height: 80vh;
+  max-width: 100%;
 }
 
 /* GALLERY */
