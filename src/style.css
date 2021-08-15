@@ -22,7 +22,7 @@ body {
 h1 {
   color: var(--clr-neutral-100);
   font-family: var(--ff-primary);
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 100;
   text-align: center;
   z-index: 1;
@@ -44,6 +44,7 @@ h1 {
   border: solid 1px var(--clr-neutral-100);
   border-radius: 10px;
   color: var(--clr-neutral-100);
+  font-size: 0.7em;
   font-weight: 200;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -89,7 +90,6 @@ a:hover {
 }
 
 .aboutMeIMG {
-  max-height: 80vh;
   max-width: 100%;
 }
 
@@ -112,5 +112,26 @@ a:hover {
   /* for anything that has a sibling directly before it, so that the initial sibling isnt affected! */
   .split > * + * {
     margin-left: 2em;
+  }
+}
+
+/* Tablet & Desktop */
+@media screen and (min-width: 768px) {
+  h1 {
+    color: var(--clr-neutral-100);
+    font-family: var(--ff-primary);
+    font-size: 5em;
+    font-weight: 100;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .navLink {
+    border: solid 1px var(--clr-neutral-100);
+    border-radius: 10px;
+    color: var(--clr-neutral-100);
+    font-weight: 200;
+    padding: 0.5em 1em;
+    text-decoration: none;
   }
 }
