@@ -18,7 +18,7 @@ body {
   background: black;
 }
 
-/* Landing Page - Heading & MainIMG */
+/* Landing Page - Heading */
 h1 {
   color: var(--clr-neutral-100);
   font-family: var(--ff-primary);
@@ -28,7 +28,85 @@ h1 {
   z-index: 1;
 }
 
+/* Landing Page - NAV BAR   */
+.navBar {
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navLink {
+  border: solid 1px var(--clr-neutral-100);
+  border-radius: 10px;
+  color: var(--clr-neutral-100);
+  font-weight: 200;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-neutral-900);
+}
+
+a:hover {
+  color: var(--clr-neutral-100);
+  cursor: pointer;
+}
+
+/* Landing Page - mainIMG */
 .mainIMG {
   max-width: 100%;
   height: auto;
+}
+
+/* Content Section - About Me */
+.aboutMe {
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 90%;
+}
+
+.aboutMeText {
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
+  font-weight: 100;
+}
+
+.aboutMeTextLine {
+  padding: 1em;
+}
+
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMeIMG {
+  height: 100vh;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+/* media query */
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+  .split > * {
+    flex-basis: 100%;
+  }
+  /* for anything that has a sibling directly before it, so that the initial sibling isnt affected! */
+  .split > * + * {
+    margin-left: 2em;
+  }
 }
