@@ -93,6 +93,12 @@ a:hover {
   max-width: 100%;
 }
 
+/* VIDEO REELS */
+.videoReel {
+  display: block;
+  margin: 0 auto;
+}
+
 /* GALLERY */
 
 /* SPLIT EFFECT */
