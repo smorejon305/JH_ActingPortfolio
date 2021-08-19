@@ -16,6 +16,17 @@
 
 body {
   background: black;
+  font-family: var(--ff-primary);
+  font-weight: 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
 }
 
 /* Landing Page - Heading */
@@ -44,7 +55,7 @@ h1 {
   border: solid 1px var(--clr-neutral-100);
   border-radius: 10px;
   color: var(--clr-neutral-100);
-  font-size: 0.7em;
+  font-size: 01em;
   font-weight: 200;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -79,6 +90,11 @@ a:hover {
   font-weight: 100;
 }
 
+.aboutMeTextHeader {
+  font-family: var(--ff-primary);
+  text-align: center;
+}
+
 .aboutMeTextLine {
   padding: 1em;
 }
@@ -102,16 +118,30 @@ a:hover {
 .vimeoButton {
   background-color: var(--clr-neutral-900);
   border-radius: 10px;
+  font-family: var(--ff-primary);
   display: block;
   margin: 0 auto;
   margin-top: 2em;
   padding: 1em 3em;
 }
 
+.vimeoButton:hover {
+  background-color: var(--clr-neutral-100);
+  transition: ease-in-out;
+}
+
 .vimeoLink {
-  color: var(--clr-highlight-400);
+  color: var(--clr-neutral-100);
   font-family: var(--ff-primary);
   font-size: 1.8em;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.vimeoLink:hover {
+  color: var(--clr-neutral-900);
+
+  pointer: cursor;
 }
 
 /* GALLERY */
