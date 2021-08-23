@@ -145,7 +145,7 @@ a:hover {
 
 .vimeoLink:hover {
   color: var(--clr-neutral-900);
-  pointer: cursor;
+  cursor: pointer;
 }
 
 /* GALLERY */
@@ -162,9 +162,10 @@ a:hover {
 
 .bgImage1 {
   background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ plaid.jpg");
-  background-position: 20%;
-
+  background-position: 20% 0;
+}
 /* SPLIT EFFECT */
+
 .split {
   display: flex;
   flex-direction: column;
