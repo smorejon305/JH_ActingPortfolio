@@ -39,6 +39,22 @@ h1 {
   z-index: 1;
 }
 
+h2 {
+  color: var(--clr-neutral-100);
+}
+
+.darkH2 {
+  color: var(--clr-neutral-900);
+}
+
+hr {
+  color: var(--clr-neutral-100);
+}
+
+.darkHR {
+  color: var(--clr-neutral-900);
+}
+
 /* Landing Page - NAV BAR   */
 .navBar {
   align-items: center;
@@ -82,6 +98,7 @@ a:hover {
   margin: 0 auto;
   padding: 2em;
   max-width: 90%;
+  margin-top: 5em;
 }
 
 .aboutMeText {
@@ -112,17 +129,20 @@ a:hover {
 /* VIDEO REELS */
 
 .videoReels {
-  padding: 10%;
-  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-100);
+  padding: 5%;
 }
+
 .videoReel {
   padding: 5% 10%;
+  padding-top: 0;
   display: block;
   margin: 0 auto;
 }
 
 .vimeoButton {
-  background-color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-100);
+  border: none;
   border-radius: 10px;
   font-family: var(--ff-primary);
   display: block;
@@ -131,12 +151,12 @@ a:hover {
 }
 
 .vimeoButton:hover {
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-900);
   transition: ease-in-out;
 }
 
 .vimeoLink {
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-900);
   font-family: var(--ff-primary);
   font-size: 1.8em;
   font-weight: 100;
@@ -144,11 +164,20 @@ a:hover {
 }
 
 .vimeoLink:hover {
-  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
   cursor: pointer;
 }
 
 /* GALLERY */
+
+.imageGallery {
+  margin-top: 2em;
+  padding-bottom: 2em;
+  padding: 5%;
+}
+.bgImages {
+  padding-top: 1%;
+}
 
 .bgImage1,
 .bgImage2,
@@ -179,66 +208,95 @@ a:hover {
 }
 
 .bgImage1 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ boots.jpg");
+  background-image: url("media/galleryIMGs/Jenny\ Hutton.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30% 0;
+  background-position: 50% 15%;
 }
 
 .bgImage2 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ blue\ background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 10%;
-}
-
-.bgImage3 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ Blonde-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.bgImage4 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ Blonde-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-.bgImage5 {
   background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ badass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
-.bgImage6 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ Blonde-1.jpg");
+.bgImage3 {
+  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ photo3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 07%;
+}
+
+.bgImage4 {
+  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ no\ makeup.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+.bgImage5 {
+  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ blue\ background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+}
+
+.bgImage6 {
+  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ LA\ Art\ Walk\ Opening.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
 }
 
 .bgImage7 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ plaid.jpg");
+  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ actress\ -\ film\ shoot.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 30% 0;
 }
 
 .bgImage8 {
   background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ Blonde-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 25%;
 }
 
 .bgImage9 {
-  background-image: url("media/galleryIMGs/Jenny\ Hutton\ -\ blonde-horse.jpg");
+  background-image: url("media/galleryIMGs/Photos\ \ Jenny\ Hutton\ \(3\).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 10%;
+}
+
+/*WORK */
+
+.pastProjects {
+  background-color: var(--clr-neutral-100);
+  padding: 5%;
+}
+
+.filmPhoto {
+  max-height: 50vh;
+  max-width: 100%;
+}
+
+.projectTitle {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.projectDetails {
+  font-size: 1em;
+}
+
+.projectDirector {
+  font-size: 1em;
+}
+
+.projectAwards {
+  font-weight: 500;
 }
 
 /* SPLIT EFFECT */
