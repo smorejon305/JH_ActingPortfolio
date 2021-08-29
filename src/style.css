@@ -272,6 +272,11 @@ a:hover {
 
 /*WORK */
 
+.projectsHeader {
+  color: var(--clr-neutral-900);
+  text-align: right;
+}
+
 .pastProjects {
   background-color: var(--clr-neutral-100);
   padding: 5%;
