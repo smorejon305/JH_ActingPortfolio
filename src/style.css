@@ -287,9 +287,32 @@ a:hover {
   max-width: 100%;
 }
 
+.projectsItem {
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.projectsItem:hover {
+  border: 1px solid black;
+}
+
 .projectTitle {
   font-size: 1em;
   font-weight: 400;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+  color: var(--clr-neutral-900);
+}
+
+.projectLink:visited {
+  color: var(--clr-neutral-900);
 }
 
 .projectDetails {
