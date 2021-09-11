@@ -332,17 +332,30 @@ a:hover {
 .representationContact {
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
+  text-align: center;
+  padding: 5%;
+}
+
+.repSectionHeader {
+  text-align: left;
+}
+
+.repGroup {
+  border-left-style: solid var(--clr-neutral-100) 1px;
 }
 
 .repHeader {
   font-size: 1.2em;
   font-weight: 400;
   line-height: 1em;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .repLink {
   text-decoration: none;
   color: var(--clr-neutral-100);
+  text-align: center;
 }
 
 .repLink:hover {
@@ -352,6 +365,7 @@ a:hover {
 .repDetails {
   font-size: 0.8em;
   margin-left: 1.1em;
+  text-align: center;
 }
 
 /* SPLIT EFFECT */
