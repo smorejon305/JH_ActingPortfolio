@@ -327,6 +327,33 @@ a:hover {
   font-weight: 500;
 }
 
+/* CONTACT INFO */
+
+.representationContact {
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
+}
+
+.repHeader {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.repLink {
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+}
+
+.repLink:hover {
+  text-decoration: underline;
+}
+
+.repDetails {
+  font-size: 0.8em;
+  margin-left: 1.1em;
+}
+
 /* SPLIT EFFECT */
 
 .split {
