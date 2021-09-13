@@ -69,7 +69,8 @@ hr {
 }
 
 .navLink {
-  font-size: 01em;
+  color: var(--clr-neutral-100);
+  font-size: 1em;
   font-weight: 200;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -78,6 +79,9 @@ hr {
 .navLink:hover {
   border: solid 1px var(--clr-neutral-100);
   border-radius: 10px;
+}
+a:visited {
+  color: var(--clr-neutral-100);
 }
 
 a:hover {
