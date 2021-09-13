@@ -288,8 +288,8 @@ a:hover {
 }
 
 .projectsItem {
-  margin-top: 1em;
-  padding: 1em;
+  margin-top: 0.5em;
+  padding: 0.5em;
 }
 
 .projectsItem:hover {
