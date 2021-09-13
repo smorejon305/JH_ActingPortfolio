@@ -410,6 +410,11 @@ a:hover {
     text-decoration: none;
   }
 
+  .navLink:hover {
+    font-weight: 400;
+    border: none;
+  }
+
   .navLink:visited {
     color: var(--clr-neutral-100);
   }
