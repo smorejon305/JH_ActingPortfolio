@@ -409,4 +409,12 @@ a:hover {
   .navLink:visited {
     color: var(--clr-neutral-100);
   }
+
+  a {
+    color: var(--clr-neutral-100);
+  }
+
+  a:visited {
+    color: var(--clr-neutral-100);
+  }
 }
