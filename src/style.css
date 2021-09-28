@@ -190,7 +190,11 @@ a:hover {
 .bgImage6,
 .bgImage7,
 .bgImage8,
-.bgImage9 {
+.bgImage9, 
+.bgImage10, 
+.bgImage11, 
+.bgImage12
+{
   border: 1px solid black;
   display: inline-block;
   width: 32%;
@@ -206,8 +210,32 @@ a:hover {
 .bgImage6:hover,
 .bgImage7:hover,
 .bgImage8:hover,
-.bgImage9:hover {
+.bgImage9:hover, 
+.bgImage10:hover, 
+.bgImage11:hover, 
+.bgImage12:hover {
   border: solid 1px white;
+}
+
+.bgImage10 {
+  background-image: url("media/galleryIMGs/Jenny\ Hutton.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+}
+
+.bgImage11 {
+  background-image: url("media/webpagePhotos/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+}
+
+.bgImage12 {
+  background-image: url("media/galleryIMGs/Jenny\ Hutton.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
 }
 
 .bgImage1 {
@@ -271,6 +299,13 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 10%;
+}
+
+/* Image Carousel Section */
+
+.imageCarousel {
+  max-width: 80%; 
+  height: 100vh; 
 }
 
 /*WORK */
