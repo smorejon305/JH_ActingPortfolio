@@ -184,9 +184,16 @@ a:hover {
   padding: 1em; 
   column-count: 3; 
 }
+
+
+.shiftDown {
+padding-top: 2.5em; 
+}
+
+
 .galleryContainer {
   padding: 1em; 
-  column-count: 4; 
+  column-count: 3 ; 
 }
 
 
@@ -332,10 +339,10 @@ a:hover {
 
 /* Image Carousel Section */
 
-.imageCarousel {
+/* .imageCarousel {
   max-width: 80%; 
   height: 100vh; 
-} */
+} */ */
 
 /*WORK */
 
@@ -482,5 +489,17 @@ a:hover {
 
   .navLink:visited {
     color: var(--clr-neutral-100);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .galleryContainerTop{
+    width: 100%; 
+    column-count: 3; 
+  }
+
+  .galleryContainer {
+    width: 100%; 
+    column-count: 2; 
   }
 }
