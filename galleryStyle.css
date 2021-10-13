@@ -1,0 +1,14 @@
+body {
+  background: #111; 
+
+}
+
+.container {
+  padding: 1em; 
+  column-count: 4; 
+}
+
+img{
+  width: 100%; 
+  margin-bottom: 1em; 
+}
