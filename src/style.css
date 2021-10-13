@@ -179,14 +179,16 @@ a:hover {
   padding: 5%;
 }
 
-.galleryContainer {
 
+.galleryContainerTop {
+  padding: 1em; 
+  column-count: 3; 
 }
-
 .galleryContainer {
   padding: 1em; 
   column-count: 4; 
 }
+
 
 .galleryImage{
   width: 100%; 
