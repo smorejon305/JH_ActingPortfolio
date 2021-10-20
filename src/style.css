@@ -132,9 +132,17 @@ a:hover {
 
 /* VIDEO REELS */
 
+
+
+
 .videoReels {
-  background-color: var(--clr-neutral-100);
   padding: 5%;
+}
+
+.mainReel{
+  max-width: 90%; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 .videoReel {
@@ -145,7 +153,7 @@ a:hover {
 }
 
 .vimeoButton {
-  background-color: var(--clr-neutral-100);
+  background-color: black;
   border: none;
   border-radius: 10px;
   color: var(--clr-neutral-900);
@@ -165,8 +173,7 @@ a:hover {
 }
 
 .vimeoLink:hover {
-  color: var(--clr-neutral-900); 
-  cursor: pointer; 
+ cursor: pointer; 
   text-decoration: underline; 
 }
 
