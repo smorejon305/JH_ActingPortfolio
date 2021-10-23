@@ -296,7 +296,24 @@ padding-top: 3em;
   padding: 1em; 
 }
 
+.contactJenny-link{
+  color: var(--clr-neutral-900); 
+  text-decoration: none; 
+  font-family: var(--ff-primary); 
+  font-size: 2em; 
+  font-weight: 100; 
+  letter-spacing: .05em; 
+  text-transform: uppercase; 
+}
 
+.contactJenny-link:visited{
+  color: var(--clr-neutral-900); 
+}
+
+.contactJenny-link:hover{
+  color: var(--clr-neutral-900); 
+  text-decoration: underline; 
+}
 
 
 
