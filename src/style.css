@@ -280,6 +280,43 @@ padding-top: 3em;
 
 /* CONTACT INFO */
 
+.contactJenny{
+  background-color: var(--clr-neutral-100); 
+  height: 20vh; 
+}
+
+
+.contactJenny-button{
+  border: none; 
+  padding: 1.5em; 
+  display: block; 
+  margin: 0 auto; 
+  margin-bottom: 2em; 
+  border-radius: 10px; 
+  padding: 1em; 
+}
+
+.contactJenny-link{
+  color: var(--clr-neutral-900); 
+  text-decoration: none; 
+  font-family: var(--ff-primary); 
+  font-size: 2em; 
+  font-weight: 100; 
+  letter-spacing: .05em; 
+  text-transform: uppercase; 
+}
+
+.contactJenny-link:visited{
+  color: var(--clr-neutral-900); 
+}
+
+.contactJenny-link:hover{
+  color: var(--clr-neutral-900); 
+  text-decoration: underline; 
+}
+
+
+
 .representationContact {
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
