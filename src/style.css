@@ -411,7 +411,7 @@ padding-top: 3em;
 @media screen and (max-width: 500px) {
   .galleryContainerTop{
     width: 100%; 
-    column-count: 3; 
+    column-count: 2;  
   }
 
   .galleryContainer {
