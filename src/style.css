@@ -199,7 +199,7 @@ a:hover {
 
 .galleryContainerTop {
   padding: 1em; 
-  column-count: 3; 
+  column-count: 2; 
 }
 
 
@@ -210,13 +210,15 @@ padding-top: 3em;
 
 .galleryContainer {
   padding: 1em; 
-  column-count: 3 ; 
+  column-count: 3;
+   margin: 0 auto; 
 }
 
 
 .galleryImage{
   width: 100%; 
-  margin-bottom: 1em; 
+  margin-bottom: .5em; 
+ 
 }
 
 
