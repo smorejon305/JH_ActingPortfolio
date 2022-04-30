@@ -320,8 +320,22 @@ padding-top: 3em;
 
 
 /* Social Media Links */
-.instagramLink {
+
+.socialMediaAccounts{
+
+
 }
+
+.instagramIcon{
+  size: 25px; 
+}
+
+.instagramLink{
+  background-color: black; 
+  color: black;
+  text-align: center; 
+}
+
 /* end of Social Media links */
 
 .representationContact {
