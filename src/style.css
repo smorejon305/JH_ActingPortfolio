@@ -289,6 +289,7 @@ padding-top: 3em;
 
 
 .contactJenny-button{
+  background-color: var(--clr-neutral-100); 
   border: none; 
   padding: 1.5em; 
   display: block; 
@@ -317,26 +318,6 @@ padding-top: 3em;
   text-decoration: underline; 
 }
 
-
-
-/* Social Media Links */
-
-.socialMediaAccounts{
-
-
-}
-
-.instagramIcon{
-  size: 25px; 
-}
-
-.instagramLink{
-  background-color: black; 
-  color: black;
-  text-align: center; 
-}
-
-/* end of Social Media links */
 
 .representationContact {
   background-color: var(--clr-neutral-900);
